@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>seas</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightblue;
+            margin: 20px;
+        }
+
+        header {
+            background-color: rgb(46, 240, 198);
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        /* descendant combinator (space between main and p) */
+        main p {
+            color: rgb(155, 237, 243);
+        }
+
+        img {
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+
+    <noscript>
+        <p>Turn on JavaScript or some stuff on this beach site wont work.</p>
+    </noscript>
+
+    <header>
+        <h1>Beaches</h1>
+        <p>This website is about beaches because they are cool.</p>
+    </header>
+
+    <nav>
+        <a href="#sec1">Stuff</a> |
+        <a href="#sec2">Sand</a> |
+        <a href="#sec3">More Info</a>
+    </nav>
+
+    <main>
+
+        <section id="sec1">
+            <h2>Why I Like Beaches</h2>
+            <p>Beaches are fun to go to in the summer. You can swim in the ocean and hang out with friends.</p>
+        </section>
+
+        <section id="sec2">
+            <h2>How Sand Happens</h2>
+            
+            <article>
+                <h3>Where Sand Comes From</h3>
+                <p>Waves hit rocks and shells for a really long time until they break into tiny pieces. That is how we get sand.</p>
+            </article>
+
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ53ymTwY-om0C336lIVvxOXABiTwt9f8NImmRHcxV7pg&s=10" alt="a beach">
+                <figcaption>A picture of a beach and ocean waves.</figcaption>
+            </figure>
+        </section>
+
+        <section id="sec3">
+            <h2>Random Facts</h2>
+            <details>
+                <summary>Click to read a beach tip</summary>
+                <p>Wear sunscreen so you do not get sunburned. Also watch out for rip currents.</p>
+            </details>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Made for class 2026</p>
+    </footer>
+
+</body>
+</html>
